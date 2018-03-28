@@ -40,7 +40,7 @@ public class MainActivity extends AppCompatActivity {
         new AlertDialog.Builder(this)
                 .setMessage("BMI="+bmi)
                 .setTitle("BMI值")
-                .setPositiveButton("OK",null)
+                .setPositiveButton("確定",null)
                 .setNegativeButton("CANNCEL",null)
                 .show();
     }
